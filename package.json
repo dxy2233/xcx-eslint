@@ -1,0 +1,24 @@
+{
+  "name": "xcx-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ./src",
+    "p": "prettier --config --write src/**"
+  },
+  "author": "dxy2233",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-alloy": "^3.8.2",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.2.0",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  }
+}
